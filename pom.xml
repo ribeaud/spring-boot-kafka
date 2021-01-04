@@ -17,7 +17,7 @@
     <properties>
         <java.version>14</java.version>
         <spring-kafka.version>2.6.4</spring-kafka.version>
-        <testcontainers-kafka.version>1.15.0</testcontainers-kafka.version>
+        <testcontainers-kafka.version>1.15.1</testcontainers-kafka.version>
     </properties>
 
     <dependencies>
@@ -39,18 +39,6 @@
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
             <scope>provided</scope>
-        </dependency>
-        <!-- Test dependencies -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.kafka</groupId>
-            <artifactId>spring-kafka-test</artifactId>
-            <version>${spring-kafka.version}</version>
-            <scope>test</scope>
         </dependency>
     </dependencies>
 
